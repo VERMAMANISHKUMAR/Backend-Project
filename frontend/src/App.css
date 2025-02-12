@@ -1,0 +1,21 @@
+/* Light Theme */
+body.light {
+          background-color: #ffffff;
+          color: #000000;
+        }
+        
+        /* Dark Theme */
+        body.dark {
+          background-color: #121212;
+          color: #ffffff;
+        }
+        
+        /* Navbar Text Color */
+        .navbar-dark .navbar-nav .nav-link {
+          color: #ffffff;
+        }
+        
+        .navbar-light .navbar-nav .nav-link {
+          color: #000000;
+        }
+        
