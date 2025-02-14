@@ -19,7 +19,8 @@ const Register = () => {
     }
 
     try {
-      const response = await fetch("https://backend-project-backend-ul6x.onrender.com/api/auth/register", {
+      const response = await fetch(`https://backend-project-backend-ul6x.onrender.com/api/auth/register`, {
+        
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, password }),
